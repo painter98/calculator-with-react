@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+#num1,#num2,body{ /*background black,text color white for input boxes and body*/
+  background-color: black;
+  color:white;
+}
+
+#num1,#num2{ /*input fields*/
+  border:1px solid white;
+  padding:1vw;
+  margin:1vw;
+}
+
+button{ /*buttons for operations*/
+  background-color: white;
+  color:black;
+  padding:2vw;
+}
+
+.operation{
+  margin:1vw;
+}
+
+.container{
+  display: flex;
+  flex-direction:column;
+  margin:10vw;
+  align-items: flex-start;
+}
+
+#heading{
+  font-size: 64px;
+}
+
+#error{
+  color:#E33737;
+  display:none;
+  margin-left:1vw;
+}
+
+#success{
+  color:#47F558;
+  display:none;
+  margin-left:1vw;
+}
+
+#result{
+  padding:1vw;
+  display:none;
+}
